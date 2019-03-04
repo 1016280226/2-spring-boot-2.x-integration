@@ -1,0 +1,26 @@
+swagger:
+  # 用于开关swagger的配置
+  enable: true
+  # swagger 基本信息配置
+  title: Swagger API
+  description:
+  license: Apache 2.0
+  licenseUrl: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfServiceUrl:
+  version: 2.0.0
+  contact:
+    name: Calvin
+    url: http://blog.Calvin_1016280226.com
+    email: 1016280226@qq.com
+  # swagger URL规格
+  base-package: com.yingding.daikou
+  base-path: /**
+  exclude-path: /error, /ops/**
+
+server:
+  port: 8099
+
+
+
+
+

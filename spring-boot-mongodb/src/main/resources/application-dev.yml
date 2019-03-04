@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+ ############################################### mongodb ####################################################
+spring:
+  data:
+    mongodb:
+      authentication-database:           # 用于签名的MongoDB 数据库
+      database: mongodb_1                # 数据库名称
+      field-naming-strategy:             # 使用字段的策略
+      grid-fs-database:                  # GridFs （网格文件） 数据库名称
+      host: 127.0.0.1                    # MongoDB 服务器，不能设置URI
+      password:                          # MongoDB 服务器用户密码，不能设置URI
+      port: 27017                        # MongoDB 服务器端口，不能设置URI
+      repositories:
+        type: auto                       # 是否启用 Mon go DB 关于 JPA 规范的编程
+      uri: mongodb://127.0.0.1/mongodb_1 # MongoDB 默认 URI
+      username:                          # MongoDB 服务器用户名，不能设置为 URI

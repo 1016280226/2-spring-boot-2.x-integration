@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spring-boot</artifactId>
+        <groupId>org.springboot.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-boot-webmvc</artifactId>
+
+    <properties>
+        <springboot>2.1.3.RELEASE</springboot>
+        <project>1.0-SNAPSHOT</project>
+    </properties>
+
+    <dependencies>
+
+        <!-- springboot mongodb -->
+        <dependency>
+            <groupId>org.springboot.example</groupId>
+            <artifactId>spring-boot-mongodb</artifactId>
+            <version>${project}</version>
+        </dependency>
+
+        <!-- springboot thymeleaf -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <version>${springboot}</version>
+        </dependency>
+
+        <!-- webjar jquery -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+
+        <!-- webjars bootstrap -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
+
+    </dependencies>
+
+
+</project>

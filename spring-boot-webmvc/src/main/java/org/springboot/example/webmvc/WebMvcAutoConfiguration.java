@@ -33,8 +33,8 @@ public class WebMvcAutoConfiguration {
 //    }
 
 
-    @Bean
-    public LocaleResolver localeResolver(){
+
+    public @Bean LocaleResolver localeResolver(){
         return new CustomerLocaleResolver();
     }
 }

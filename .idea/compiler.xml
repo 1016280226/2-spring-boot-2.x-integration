@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-commonds-dependencies" />
-        <module name="spring-boot-mongodb" />
         <module name="spring-boot-starter" />
+        <module name="spring-boot-commonds-dependencies" />
+        <module name="spring-boot-amqp" />
+        <module name="spring-boot-mongodb" />
         <module name="spring-boot-swagger" />
         <module name="spring-boot-webmvc" />
       </profile>

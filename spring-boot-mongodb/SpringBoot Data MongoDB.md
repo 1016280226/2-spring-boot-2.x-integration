@@ -70,7 +70,7 @@ MongoDB将数据目录存储在 db 目录下。但是这个数据目录不会主
 
 在本教程中，我们已经在 C 盘安装了 mongodb，现在让我们创建一个 data 的目录然后在 data 目录里创建 db 目录。
 
-```
+```shell
 c:\>cd c:\
 
 c:\>mkdir data
@@ -112,7 +112,7 @@ indows Server 2008 R2
 
 我们可以在命令窗口中运行 mongo.exe 命令即可连接上 MongoDB，执行如下命令：
 
-```
+```shell
 C:\mongodb\bin\mongo.exe
 ```
 
@@ -126,7 +126,7 @@ C:\mongodb\bin\mongo.exe
 
 创建目录，执行下面的语句来创建数据库和日志文件的目录
 
-```
+```shell
 mkdir c:\data\db
 mkdir c:\data\log
 ```
@@ -192,10 +192,10 @@ MongoDB 提供了 linux 各发行版本 64 位的安装包，你可以在官网�
 下载完安装包，并解压 **tgz**（以下演示的是 64 位 Linux上的安装） 。
 
 ```
-curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.0.6.tgz    # 下载
-tar -zxvf mongodb-linux-x86_64-3.0.6.tgz                                   # 解压
+curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-4.0.6.tgz    # 下载
+tar -zxvf mongodb-linux-x86_64-4.0.6.tgz                                   # 解压
 
-mv  mongodb-linux-x86_64-3.0.6/ /usr/local/mongodb                         # 将解压包拷贝到指定目录
+mv  mongodb-linux-x86_64-4.0.6/ /usr/local/mongodb                         # 将解压包拷贝到指定目录
 ```
 
 MongoDB 的可执行文件位于 bin 目录下，所以可以将其添加到 **PATH** 路径中：
@@ -214,10 +214,71 @@ MongoDB的数据存储在data目录的db目录下，但是这个目录在安装�
 
 以下实例中我们将data目录创建于根目录下(/)。
 
-注意：/data/db 是 MongoDB 默认的启动的数据库路径(--dbpath)。
+- 方法一：
 
-```
+> 注意：/data/db 是 MongoDB 默认的启动的数据库路径(--dbpath)。
+>
+
+```shell
 mkdir -p /data/db
+```
+
+- 方法二：
+
+> 注意：不是用默认数据库
+
+1. 创建 mongodb.conf 文件
+
+```shell
+touch /usr/local/mongodb/mongodb.conf
+```
+
+2. 编辑 mongodb.conf
+
+```shell
+# mongod.conf 详细配置文档地址
+#   http://docs.mongodb.org/manual/reference/configuration-options/
+
+# 数据库设置
+storage:
+  dbPath: /home/data/mongodb/mongodb_data/ #数据库路径
+  journal:
+    enabled: true
+  directoryPerDB: true
+#  engine:
+#  mmapv1:
+#  wiredTiger:
+
+# 日志数据库记录
+systemLog:
+  destination: file
+  logAppend: true #日志输出方式  
+  path: /home/data/mongodb/mongodb_log/mongodb.log #日志输出文件路径
+
+# network 设置
+net:
+  port: 27017 #端口号
+  bindIp: 127.0.0.1
+
+processManagement:
+  fork: true #设置后台运行 
+  pidFilePath: /usr/local/mongodb/mongo.pid
+
+
+#security:
+
+#operationProfiling:
+
+#replication:
+
+#sharding:
+
+## Enterprise-Only Options:
+
+#auditLog:
+
+#snmp:
+
 ```
 
 
@@ -226,9 +287,9 @@ mkdir -p /data/db
 
 你可以再命令行中执行mongo安装目录中的bin目录执行mongod命令来启动mongdb服务。
 
-> 注意：如果你的数据库目录不是/data/db，可以通过 --dbpath 来指定。
+- 方法一：
 
-```
+```shell
 $ ./mongod
 2015-09-25T16:39:50.549+0800 I JOURNAL  [initandlisten] journal dir=/data/db/journal
 2015-09-25T16:39:50.550+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
@@ -237,7 +298,224 @@ $ ./mongod
 2015-09-25T16:39:52.775+0800 I JOURNAL  [initandlisten] preallocateIsFaster=true 7.7
 ```
 
+- 方法二：
 
+  > 注意：已经创建了mongdb.conf配置文件
+
+```shell
+mkdir /home/data/mongodb/mongodb_data/ #创建数据库路径
+
+touch /home/data/mongodb/mongodb_log/mongodb.log #日志输出文件路径
+```
+
+```shell
+./mongod --config /usr/local/mongodb/mongodb.conf  #启动MongoDB
+```
+
+![1553445413163](C:\Users\Calvin\AppData\Roaming\Typora\typora-user-images\1553445413163.png)
+
+
+
+查看MongoDB 是否启动
+
+```shell
+netstat -lanp | grep "27017" 
+```
+
+
+
+#### 2.2.4 设置开机自动启动MongoDB
+
+1. 创建自动文件mongod
+
+```shell
+touch /etc/rc.d/init.d/mongod
+```
+
+ 
+
+2. 编辑mongod
+
+```shell
+ulimit -SHn 655350
+
+#!/bin/sh
+
+# chkconfig: - 64 36
+
+# description:mongod
+
+case $1 in
+
+start)
+
+/usr/local/mongodb/bin/mongod --port 27017 --fork -f /usr/local/mongodb/mongodb.conf
+
+;;
+
+stop)
+
+/usr/local/mongodb/bin/mongo 127.0.0.1:27017/admin --eval "db.shutdownServer()"
+
+;;
+
+status)
+
+/usr/local/mongodb/bin/mongo 127.0.0.1:27017/admin --eval "db.stats()"
+
+;;
+
+esac
+
+:wq! #保存退出
+```
+
+
+
+3. 添加脚本执行权限
+
+```shell
+chmod +x /etc/rc.d/init.d/mongod
+```
+
+
+
+4. 设置开机启动
+
+```shell
+chkconfig mongod on 
+```
+
+
+
+5. 启动 MongoDB
+
+```shell
+service  mongod  start 
+```
+
+
+
+#### 2.2.5 使用 service mongod start 错误问题解决
+
+如下图为使用了 service mongod start 后，显示的错误代码。
+
+```
+about to fork child process, waiting until server is ready for connections.
+forked process: 19437
+ERROR: child process failed, exited with error number 100
+```
+
+> 原因: **由于mongdb 非正常关闭而导致的问题的产生。**
+
+解决方法：
+
+1. 删除创建数据库目录 ，该方法清空所有保存的数据。
+
+```shell
+rm -rf /home/data/mongodb_data
+```
+
+2. 如果存有数据，不想删除数据，删除mongo.lock
+
+```shell
+rm -rf /home/data/mongodb_data/mongo.lock
+```
+
+3. 在启动目录下使用修复 --repair 命令
+
+```shell
+/usr/local/mongodb/bin/mongod --repair
+```
+
+4. 执行 service mongod start 
+
+```shell
+service mongod start 
+```
+
+成功后，显示如下：
+
+![1553450382281](C:\Users\Calvin\AppData\Roaming\Typora\typora-user-images\1553450382281.png)
+
+
+
+#### 2.2.6 连接远程MongDB遇到的问题和解决
+
+使用Studio 3T 数据可视化工具连接mongodb
+
+1. 设置SSH
+
+   ![1553465850882](C:\Users\Calvin\AppData\Roaming\Typora\typora-user-images\1553465850882.png)
+
+2. 设置Server 
+
+![1553465898001](C:\Users\Calvin\AppData\Roaming\Typora\typora-user-images\1553465898001.png)
+
+> 问题：TimeoutExceptionConnection error (MongoSocketRea) 连接超时
+
+3. 解决方法：
+
+   - a. 修改mongodb.conf 配置文件绑定ip
+
+     ```
+     # network 设置
+     net:
+       port: 27017 #端口号
+       bindIp: 0.0.0.0
+     ```
+
+   - b.使用命令修改防火墙文件，添加**允许访问mongodb的端口27017**
+
+     - 关闭SeLinux
+
+       ```shell
+       vi /etc/selinux/config
+       
+       #SELINUX=enforcing    #注释掉
+       
+       #SELINUXTYPE=targeted #注释掉
+       
+       SELINUX=disabled      #增加
+       
+       :wq!                  #保存退出
+       
+       setenforce 0          #使配置立即生效
+       ```
+
+     - 关闭防火墙
+
+       ```shell
+       systemctl stop firewalld #关闭防火墙 
+       
+       systemctl mask firewalld #屏蔽服务（让它不能启动）
+       ```
+
+       
+
+     - 配置防火墙，添加允许访问mongodb的端口27017
+
+       ```shell
+       vi /etc/sysconfig/iptables   #编辑
+       
+       -A RH-Firewall-1-INPUT -m state --state NEW -m tcp -p tcp --dport 27017 -j ACCEPT                       #允许27017端口通过防火墙
+       
+       :wq!                         #保存退出
+       
+       service iptables save        #保存上述规则
+       ```
+
+     - 重新启动防火墙
+
+       ```shell
+       systemctl restart iptables.service
+       ```
+
+#### 2.2.7 通过浏览器访问：{域名|ip}:27017
+
+![1553467368181](C:\Users\Calvin\AppData\Roaming\Typora\typora-user-images\1553467368181.png)
+
+访问成功后，可以看到 It looks like you are trying to access MongoDB over HTTP on the native driver port. 说明已经成功了。
 
 ## 3. Maven 依赖
 

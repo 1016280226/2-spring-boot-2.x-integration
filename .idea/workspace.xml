@@ -4,18 +4,14 @@
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/springboot/example/spring-boot-commonds-abstracts/1.0-SNAPSHOT/spring-boot-commonds-abstracts-1.0-SNAPSHOT.jar!/org/springboot/example/commonds/abstracts/crud/CRUD.class" description="T queryByPrimary(Long var1);" line="0" />
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.1.5.RELEASE/spring-data-mongodb-2.1.5.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class" description="MongoPersistentEntity&lt;?&gt; entity = (MongoPersistent..." line="0" />
     <bookmark url="jar://$MAVEN_REPOSITORY$/org/springboot/example/spring-boot-commonds-abstracts/1.0-SNAPSHOT/spring-boot-commonds-abstracts-1.0-SNAPSHOT.jar!/org/springboot/example/commonds/abstracts/crud/CRUD.class" line="0" />
+    <bookmark url="file://G:/workspace/daikou/daikou/yingding-daikou-kernel/yingding-daikou-admin/src/main/java/com/yingding/daikou/admin/settle/service/SettleService.java" line="64" />
+    <bookmark url="file://$USER_HOME$/Downloads/workspace/daikou/yingding-daikou-kernel/yingding-daikou-admin/src/main/java/com/yingding/daikou/admin/settle/service/SettleService.java" description="void statisMerchantSettleOfYesterday();" line="42" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6115ebec-fbb3-421b-8e32-f6a7df004168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-amqp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-amqp/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-webmvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-webmvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/WebMvcAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/WebMvcAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/interceptor/CustomerHandlerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/interceptor/CustomerHandlerInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,58 +84,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/i18n/login_zh_CN.properties">
-          <provider editor-type-id="ResourceBundle" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="23" selection-start-line="23" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/i18n/login.properties">
-          <provider editor-type-id="ResourceBundle" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="16" lean-forward="true" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/i18n/login_en_US.properties">
-          <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
+          <provider editor-type-id="ResourceBundle" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/i18n/CustomerLocaleResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" lean-forward="true" selection-end-line="30" />
+            <state relative-caret-position="225">
+              <caret line="13" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,43 +106,83 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/LocaleResolver.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/interceptor/CustomerHandlerInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/config/ExtractMvcConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="41" column="29" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/SpringBoot Web MVC.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="275">
+                <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+                <folding>
+                  <element signature="e#0#198#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/interceptor/CustomerHandlerInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/SpringBoot Data MongoDB.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-75" />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-amqp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-starter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="25" selection-start-line="19" selection-start-column="7" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="46" column="21" selection-start-line="13" selection-start-column="2" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -227,7 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-mongodb/src/main/java/org/springboot/example/mongodb/entity/User.java" />
         <option value="$PROJECT_DIR$/spring-boot-mongodb/src/main/java/org/springboot/example/mongodb/utils/MongodbUtils.java" />
         <option value="$PROJECT_DIR$/spring-boot-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/webmvc/WebMVCSpringBootApplication.java" />
@@ -274,10 +271,11 @@
         <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/interceptor/CustomerHandlerInterceptor.java" />
         <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/WebMvcAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-boot-amqp/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-webmvc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/i18n/login_en_US.properties" />
         <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-amqp/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-amqp/pom.xml" />
       </list>
     </option>
   </component>
@@ -313,8 +311,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="606" />
+    <option name="y" value="82" />
+    <option name="width" value="1522" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -337,151 +336,12 @@
             <path>
               <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
               <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="webmvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="crud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="i18n" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="i18n" type="462c0819:PsiDirectoryNode" />
-              <item name="Resource Bundle 'login'" type="a6c14932:ResourceBundleNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -500,7 +360,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549281314026" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-se" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/daikuan/back/yingding-daikuan-kernel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -509,11 +369,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\localspace\spring-boot\spring-boot-webmvc" />
       <recent name="G:\localspace\spring-boot\spring-boot-webmvc\src\main\java\org\springboot\example\webmvc\crud\entity" />
       <recent name="G:\localspace\spring-boot\spring-boot-webmvc\src\main\resources" />
       <recent name="G:\localspace\spring-boot\spring-boot-webmvc\src\main\java\org\springboot\example\webmvc\service" />
       <recent name="G:\localspace\spring-boot\spring-boot-mongodb" />
-      <recent name="G:\localspace\spring-boot" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.springboot.example.webmvc.crud.service" />
@@ -629,12 +489,17 @@
       <workItem from="1552706441555" duration="1285000" />
       <workItem from="1552712359585" duration="409000" />
       <workItem from="1552739780541" duration="547000" />
-      <workItem from="1552868896444" duration="6680000" />
+      <workItem from="1552868896444" duration="8902000" />
+      <workItem from="1552959253450" duration="2153000" />
+      <workItem from="1553000527279" duration="1916000" />
+      <workItem from="1553068835757" duration="640000" />
+      <workItem from="1553223050745" duration="905000" />
+      <workItem from="1553400714420" duration="3132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131101000" />
+    <option name="totallyTimeSpent" value="142069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,9 +511,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-168" y="122" width="1730" height="1087" extended-state="1" />
+    <frame x="897" y="43" width="1522" height="1087" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.2538922" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.3002736" />
       <window_info id="Learn" order="1" weight="0.32712767" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -668,7 +533,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32987553" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4978678" weight="0.32914045" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" weight="0.31794333" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" visible="true" weight="0.32004198" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.35980812" side_tool="true" weight="0.15424974" />
@@ -704,39 +569,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://H:/Spring Boot/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/src/main/java/com/atguigu/springboot/component/MyLocaleResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/format/FormatConverter.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/resolver/ViewResolver.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/InterceptorRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/Spring Boot/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/src/main/java/com/atguigu/springboot/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://H:/Spring Boot/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/src/main/java/com/atguigu/springboot/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/Spring Boot/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/src/main/java/com/atguigu/springboot/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="85" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://H:/Spring Boot/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/src/main/java/com/atguigu/springboot/dao/EmployeeDao.java" />
+    <entry file="file://H:/Spring Boot/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/src/main/java/com/atguigu/springboot/controller/LoginController.java" />
+    <entry file="file://H:/Spring Boot/源码、资料、课件/代码/spring-boot-04-web-restfulcrud/src/main/java/com/atguigu/springboot/controller/EmployeeController.java" />
     <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -982,20 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1020,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/i18n/login_zh_CN.properties">
       <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
@@ -1046,7 +860,7 @@
       <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="16" lean-forward="true" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1054,14 +868,14 @@
       <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/i18n/CustomerLocaleResolver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" lean-forward="true" selection-end-line="30" />
+        <state relative-caret-position="225">
+          <caret line="13" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1070,11 +884,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/interceptor/CustomerHandlerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="19" selection-start-column="7" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" column="21" selection-start-line="13" selection-start-column="2" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/SpringBoot Web MVC.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <folding>
+              <element signature="e#0#198#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/SpringBoot Data MongoDB.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-75" />
+          <second_editor />
         </state>
       </provider>
     </entry>

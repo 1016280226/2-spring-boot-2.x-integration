@@ -9,9 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6115ebec-fbb3-421b-8e32-f6a7df004168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-amqp/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,12 +83,12 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/i18n/login_en_US.properties">
+          <provider editor-type-id="ResourceBundle" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
-          <provider editor-type-id="ResourceBundle" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -123,9 +121,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="275">
                 <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-                <folding>
-                  <element signature="e#0#198#0" expanded="true" />
-                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -135,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/SpringBoot Data MongoDB.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-75" />
+            <state split_layout="SECOND">
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -311,9 +306,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="82" />
-    <option name="width" value="1522" />
+    <option name="x" value="194" />
+    <option name="y" value="132" />
+    <option name="width" value="1743" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -325,6 +320,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -336,18 +332,12 @@
             <path>
               <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
               <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +350,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549281314026" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/daikuan/back/yingding-daikuan-kernel" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/workspace/daikou/yingding-daikou-kernel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -495,11 +485,13 @@
       <workItem from="1553068835757" duration="640000" />
       <workItem from="1553223050745" duration="905000" />
       <workItem from="1553400714420" duration="3132000" />
+      <workItem from="1553484722655" duration="2309000" />
+      <workItem from="1553560379031" duration="691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142069000" />
+    <option name="totallyTimeSpent" value="145069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,9 +503,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="897" y="43" width="1522" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.3002736" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.27558637" />
       <window_info id="Learn" order="1" weight="0.32712767" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -533,7 +526,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32987553" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4978678" weight="0.32914045" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" visible="true" weight="0.32004198" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" visible="true" weight="0.3170478" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.35980812" side_tool="true" weight="0.15424974" />
@@ -892,6 +885,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/SpringBoot Web MVC.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -927,23 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-webmvc/SpringBoot Web MVC.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="275">
-            <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            <folding>
-              <element signature="e#0#198#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/SpringBoot Data MongoDB.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-75" />
+        <state split_layout="SECOND">
+          <first_editor />
           <second_editor />
         </state>
       </provider>

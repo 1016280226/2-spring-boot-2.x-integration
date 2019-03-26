@@ -11,10 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author Calvin
@@ -31,7 +28,7 @@ public class MessageEndpoint {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    @ApiOperation(value = "direct", notes = "单播(点对点)", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    @ApiOperation(value = "direct", notes = "单播(点对点)", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE)
     @PostMapping("send/direct")
     public String sendDirect(@RequestBody @Validated SendMessageRequestBody sendMessageRequestBody){
         if(sendMessageRequestBody.getDefaultExchage() != null){
@@ -48,5 +45,13 @@ public class MessageEndpoint {
             rabbitTemplate.convertAndSend(sendMessageRequestBody.getCustomerExchage(),sendMessageRequestBody.getRouteKey(),sendMessageRequestBody.getMessage());
         }
         return "OK";
+    }
+
+    @ApiOperation(value = "receive", notes = "接收信息", httpMethod = "GET")
+    @GetMapping("receive/{queueName}")
+    public Object receive(@PathVariable String queueName){
+        // 接收后，数据被删除
+        Object o = rabbitTemplate.receiveAndConvert(queueName);
+        return o;
     }
 }

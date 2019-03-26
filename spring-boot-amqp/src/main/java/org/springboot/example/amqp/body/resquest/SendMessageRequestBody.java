@@ -24,11 +24,11 @@ public class SendMessageRequestBody {
     @ApiModelProperty(value = "自定义交换器",example = "", notes = "1.用来接收生产者发送的消息，并将这些消息路由给服务器中的队列;")
     private String customerExchage;
 
-    @ApiModelProperty(value ="路由键",example = "amq.direct",notes = "该路由键存唯一标识")
+    @ApiModelProperty(value ="路由键",example = "news",notes = "该路由键存唯一标识")
     @NotBlank(message = "路由键参数必填")
     private String routeKey;
 
-    @ApiModelProperty(value = "消息体",example = "RabbitMQ 第一个消息",notes = "默认当成消息体")
+    @ApiModelProperty(value = "消息体",example = "",notes = "默认当成消息体")
     @NotNull(message = "消息体必填")
     private Object message;
 

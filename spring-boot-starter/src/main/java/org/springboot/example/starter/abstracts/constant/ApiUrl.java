@@ -11,4 +11,5 @@ public abstract class ApiUrl {
     public static final String VESION = "v1";
     public static final String MONGODB = SPRING_BOOT + "/" + VESION + "/" + "mongodb";
     public static final String MONGODB_JPA = SPRING_BOOT + "/" + VESION + "/" + "mongodb" + "/" + "jpa";
+    public static final String RABBITMQ = SPRING_BOOT + "/" + VESION + "/" + "amqp";
 }

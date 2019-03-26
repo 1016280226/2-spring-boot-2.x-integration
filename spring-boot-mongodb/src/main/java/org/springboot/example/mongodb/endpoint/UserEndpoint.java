@@ -21,7 +21,6 @@ import java.util.List;
 @Api(value = "MongoDB",tags = {"MongoDB API"})
 @RestController
 @RequestMapping(ApiUrl.MONGODB + "/user")
-@ApiModel
 public class UserEndpoint {
 
     @Autowired

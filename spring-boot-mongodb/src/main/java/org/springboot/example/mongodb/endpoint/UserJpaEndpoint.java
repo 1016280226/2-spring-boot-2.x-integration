@@ -23,7 +23,6 @@ import java.util.Optional;
 @Api(value = "MongoDB",tags = {"MongoDB JPA API"})
 @RestController
 @RequestMapping(ApiUrl.MONGODB_JPA + "/user")
-@ApiModel
 public class UserJpaEndpoint {
 
     @Autowired

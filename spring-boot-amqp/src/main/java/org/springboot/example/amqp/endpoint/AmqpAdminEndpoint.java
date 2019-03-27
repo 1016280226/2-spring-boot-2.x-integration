@@ -94,8 +94,8 @@ public class AmqpAdminEndpoint {
         return "OK";
     }
 
-    @ApiOperation(value = "unbind", notes = "解绑", httpMethod = "DETELE", consumes = MediaType.APPLICATION_JSON_VALUE)
-    @DeleteMapping("unbind")
+    @ApiOperation(value = "unbind", notes = "解绑", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping("unbind")
     public String unbind(@RequestBody @Validated BindRequestBody body){
         amqpAdmin.removeBinding(new Binding(body.getDestination(),body.getDestinationType(), body.getDefaultExchange().getMessage(), body.getRoutingKey(), body.getArguments()));
         return "OK";

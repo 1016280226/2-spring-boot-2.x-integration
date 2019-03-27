@@ -10,9 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6115ebec-fbb3-421b-8e32-f6a7df004168" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/SendMessageRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/SendMessageRequestBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/endpoint/AmqpAdminEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/endpoint/AmqpAdminEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/endpoint/MessageEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/endpoint/MessageEndpoint.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/SendMessageRequestBody.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="750">
@@ -101,6 +98,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-amqp/SpringBoot AMQP.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -146,16 +153,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/SpringBoot Data MongoDB.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -321,9 +318,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="403" />
-    <option name="y" value="91" />
-    <option name="width" value="1580" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -357,277 +353,7 @@
             </path>
             <path>
               <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="amqp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="body" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="body" type="462c0819:PsiDirectoryNode" />
-              <item name="resquest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-commonds-dependencies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-commonds-dependencies" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-starter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-databind-2.9.8.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-databind-2.9.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-databind-2.9.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fasterxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="jackson-databind-2.9.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="fasterxml" type="462c0819:PsiDirectoryNode" />
-              <item name="jackson" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
@@ -852,12 +578,12 @@
       <workItem from="1553400714420" duration="3132000" />
       <workItem from="1553484722655" duration="2309000" />
       <workItem from="1553560379031" duration="691000" />
-      <workItem from="1553622167292" duration="22166000" />
+      <workItem from="1553622167292" duration="22514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167235000" />
+    <option name="totallyTimeSpent" value="167583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,10 +595,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="818" height="1087" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.55277044" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.4584245" />
       <window_info id="Learn" order="1" weight="0.32712767" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -892,7 +617,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32987553" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4978678" weight="0.32914045" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" weight="0.32528856" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" visible="true" weight="0.32738718" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.35980812" side_tool="true" weight="0.15424974" />
@@ -1188,14 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/SpringBoot AMQP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1313,6 +1030,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/SpringBoot AMQP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>

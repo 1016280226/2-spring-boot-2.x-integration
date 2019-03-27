@@ -35,16 +35,25 @@
 
 > **交换器**
 >
-> -   作用：用来**接收生产者发送的消息**，并将这些**消息路由给服务器中的队列**。
+> - 作用：用来**接收生产者发送的消息**，并将这些**消息路由给服务器中的队列**。
 >
-> -  Exchange有4种类型：
+> - Exchange有4种类型：
 >
->   - **direct(默认)**，
+>   - **direct(默认)**
+>
+>     > 单播（点对点）
+>
 >   - **fanout**,
->   -  **topic**
+>
+>     > 广播（订阅和发送）
+>
+>   - **topic**
+>
+>     > 路由机制来发送和接收
+>
 >   - **headers**
 >
->   不同类型的Exchange转发消息的策略有 所区别
+> 不同类型的Exchange转发消息的策略有 所区别
 
 ### 2.4 Queue 
 
@@ -185,4 +194,338 @@
 ![1553621656875](C:\Users\Calvin\AppData\Roaming\Typora\typora-user-images\1553621656875.png)
 
 > *注意*：[详情配置请看官方文档](https://www.rabbitmq.com/install-windows-manual.html)
+
+
+
+## 5. [Linux 安装和下载](https://www.rabbitmq.com/install-rpm.html)
+
+
+
+## 6. Maven 依赖
+
+```xml
+   <!-- springboot amqp rabbit -->
+        <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit</artifactId>
+            <version>${springboot}</version>
+        </dependency>
+
+        <!-- spring messaging -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-messaging</artifactId>
+            <version>${spring}</version>
+        </dependency>
+```
+
+
+
+## 7. RabbitMQ 配置
+
+spring-boot-amqp 项目下的 resources 下application-dev.yml配置文件添加如下配置
+
+```yml
+server:
+  port: 8083
+
+############################ RabbitMQ ######################
+spring:
+  rabbitmq:
+    host: localhost # 主机地址
+    username: guest # 用户名
+    password: guest # 密码
+    port: 5672      # 访问端口
+#    virtual-host:  # 虚拟主机地址
+```
+
+
+
+## 8.RabbitMQ 使用
+
+### 8.1 RabbitMQAutoConfiguration 自动配置
+
+- ConnectionFactory 连接工厂
+  - 通过RabbitProperites 配置来设置ConnectionFactory 连接工厂。
+  - 通过使用RabbitTemplate 对 RabbitMQ 服务器 进行**发送**和**接收**消息操作。
+  - AmqpAdmin 是RabbitMQ 服务器消息管理组件。 
+  - RabbitAutoConfiguration.class 中导入了 @EnableRabbit。
+  - 消息转类器的参数类型 转化为 Json 格式消息转化器。 
+
+```java
+package org.springboot.example.amqp;
+
+import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
+import org.springframework.amqp.support.converter.MessageConverter;
+import org.springframework.boot.autoconfigure.AutoConfigureBefore;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * @author Calvin
+ * @titile:
+ * @date 2019/3/27
+ * @since 1.0
+ *
+ * RabbitAutoConfiguration:
+ *  1.ConnectionFactory
+ *    a.Configuration ConnectionFactory By RabbitProperties
+ *    b.The RabbitTemplate Send And Receive Message To RabbitMQ
+ *    c.AmqpAdmin Is RabbitMQ System Manager Function Component
+ *  2.@EnableRabbit
+ *    a.@RabbitListener: Listener To Content Message Of Queue
+ */
+@EnableAutoConfiguration
+@Configuration
+@AutoConfigureBefore(RabbitAutoConfiguration.class)
+public class RabbitMQAutoConfiguration {
+
+    /**
+     * Use Json Format Converter
+     * @return
+     */
+    @Bean
+    public MessageConverter messageConverter(){
+        return new Jackson2JsonMessageConverter();
+    }
+}
+```
+
+
+
+### 8.2 使用AmqpAdmin 对 RabbitMQ进行操作
+
+```java
+package org.springboot.example.amqp.endpoint;
+
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
+import org.springboot.example.amqp.body.resquest.BindRequestBody;
+import org.springboot.example.amqp.body.resquest.CreateExchangeRequestBody;
+import org.springboot.example.amqp.body.resquest.CreateQueueRequestBody;
+import org.springboot.example.amqp.constant.Exchange;
+import org.springboot.example.starter.abstracts.constant.ApiUrl;
+import org.springframework.amqp.core.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.util.StringUtils;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+
+/**
+ * @author Calvin
+ * @titile: Amqp Admin Endpoint
+ * @date 2019/3/27
+ * @since 1.0
+ */
+@Slf4j
+@Api(value = "RabbitMQ",tags = {"RabbitMQ Admin API"})
+@RestController
+@RequestMapping(ApiUrl.RABBITMQ + "/admin")
+public class AmqpAdminEndpoint {
+
+    @Autowired
+    private AmqpAdmin amqpAdmin;
+
+    @ApiOperation(value = "create/exchange", notes = "创建交换器", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping("create/exchange")
+    public String createExchange(@RequestBody @Validated CreateExchangeRequestBody body){
+      switch (body.getExchageType()){
+          case direct:
+              amqpAdmin.declareExchange(new DirectExchange(body.getName(),body.getDurable(),body.getAutoDelete(),body.getArguments()));
+              break;
+          case fanout:
+              amqpAdmin.declareExchange(new FanoutExchange(body.getName(),body.getDurable(),body.getAutoDelete(),body.getArguments()));
+              break;
+          case topic:
+              amqpAdmin.declareExchange(new TopicExchange(body.getName(),body.getDurable(),body.getAutoDelete(),body.getArguments()));
+              break;
+          case headers:
+              amqpAdmin.declareExchange(new HeadersExchange(body.getName(),body.getDurable(),body.getAutoDelete(),body.getArguments()));
+              break;
+              default:
+                  try {
+                      throw new Exception("exchangeType is Paramter Error");
+                  } catch (Exception e) {
+                      e.printStackTrace();
+                  }
+      }
+        return "OK";
+    }
+
+    @ApiOperation(value = "delete/exchange", notes = "删除交换器", httpMethod = "DELETE", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @DeleteMapping("delete/exchange/{name}")
+    public String deleteExchange(@PathVariable(value = "name") String exchangeName){
+        boolean b = amqpAdmin.deleteExchange(exchangeName);
+        return b?"删除成功":"删除失败";
+    }
+
+    @ApiOperation(value = "create/queue", notes = "创建队列", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping("create/queue")
+    public String createQueue(@RequestBody @Validated CreateQueueRequestBody body){
+        amqpAdmin.declareQueue(new Queue(body.getName(),body.getDurable(),body.getExclusive(),body.getAutoDelete(),body.getArguments()));
+        return "OK";
+    }
+
+    @ApiOperation(value = "delete/queue", notes = "删除队列", httpMethod = "DELETE")
+    @DeleteMapping("delete/queue/{name}")
+    public String deleteQueue(@PathVariable(value = "name") String queueName){
+        boolean b = amqpAdmin.deleteQueue(queueName);
+        return b?"删除成功":"删除失败";
+    }
+
+    @ApiOperation(value = "bind", notes = "交换器和队列绑定", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping("bind")
+    public String bind(@RequestBody @Validated BindRequestBody body){
+        if(body.getDefaultExchange() != null){
+            if(body.getDefaultExchange() != Exchange.direct){
+                return new StringBuffer().append(body.getDefaultExchange().name()).append("is paramter error").toString();
+            }else {
+                amqpAdmin.declareBinding(new Binding(body.getDestination(),body.getDestinationType(), body.getDefaultExchange().getMessage(), body.getRoutingKey(), body.getArguments()));
+            }
+        }else if(StringUtils.isEmpty(body.getCustomerExchange())){
+            return new StringBuffer().append("customerExchage is paramter empty").toString();
+        }else {
+            amqpAdmin.declareBinding(new Binding(body.getDestination(),body.getDestinationType(), body.getCustomerExchange(), body.getRoutingKey(), body.getArguments()));
+        }
+        return "OK";
+    }
+
+    @ApiOperation(value = "unbind", notes = "解绑", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping("unbind")
+    public String unbind(@RequestBody @Validated BindRequestBody body){
+        amqpAdmin.removeBinding(new Binding(body.getDestination(),body.getDestinationType(), body.getDefaultExchange().getMessage(), body.getRoutingKey(), body.getArguments()));
+        return "OK";
+    }
+
+}
+
+```
+
+
+
+### 8.3 使用RabbitTemplate 对 RabbitMQ进行消息的发送和接收
+
+```java
+package org.springboot.example.amqp.endpoint;
+
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
+import org.springboot.example.amqp.body.resquest.SendMessageRequestBody;
+import org.springboot.example.amqp.constant.Exchange;
+import org.springboot.example.starter.abstracts.constant.ApiUrl;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.util.StringUtils;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+
+/**
+ * @author Calvin
+ * @titile: Message Endpoint
+ * @date 2019/3/27
+ * @since 1.0
+ */
+@Slf4j
+@Api(value = "RabbitMQ",tags = {"RabbitMQ API"})
+@RestController
+@RequestMapping(ApiUrl.RABBITMQ + "/message")
+public class MessageEndpoint {
+
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+
+    @ApiOperation(value = "direct", notes = "单播(点对点)", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping("send/direct")
+    public String sendDirect(@RequestBody @Validated SendMessageRequestBody sendMessageRequestBody){
+        if(sendMessageRequestBody.getDefaultExchage() != null){
+            if(sendMessageRequestBody.getDefaultExchage() != Exchange.direct){
+                return new StringBuffer().append(sendMessageRequestBody.getDefaultExchage().name()).append("is paramter error").toString();
+            }else {
+                // 自动序列化发送
+                rabbitTemplate.convertAndSend(sendMessageRequestBody.getDefaultExchage().getMessage(),sendMessageRequestBody.getRouteKey(),sendMessageRequestBody.getMessage());
+            }
+        }else if(StringUtils.isEmpty(sendMessageRequestBody.getCustomerExchage())){
+            return new StringBuffer().append("customerExchage is paramter empty").toString();
+        }else {
+            // 自动序列化发送
+            rabbitTemplate.convertAndSend(sendMessageRequestBody.getCustomerExchage(),sendMessageRequestBody.getRouteKey(),sendMessageRequestBody.getMessage());
+        }
+        return "OK";
+    }
+
+    @ApiOperation(value = "receive", notes = "接收信息", httpMethod = "GET")
+    @GetMapping("receive/{queueName}")
+    public Object receive(@PathVariable String queueName){
+        // 接收后，数据被删除
+        Object o = rabbitTemplate.receiveAndConvert(queueName);
+        return o;
+    }
+}
+```
+
+
+
+### 8.4 使用RabbitMQ 消息监听器Listener
+
+- 使用@RabbitListener 进行消息监听，接收消息，是通过 属性queues 队列进行绑定。
+
+  > *注意*：
+  >
+  > - 方法一：Message 返回 Message .getBody() 二进制数组 和 Message.getProperties 属性。
+  > - 方法二：Message 返回  Json。
+
+```java
+package org.springboot.example.amqp.listener;
+
+import com.alibaba.fastjson.JSONObject;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.stereotype.Component;
+
+/**
+ * @author Calvin
+ * @titile: Message Listener
+ * @date 2019/3/27
+ * @since 1.0
+ */
+@Slf4j
+@Component
+public class MessageListener {
+
+    /**
+     *
+     * 使用场景:
+     *    a.商品下单:
+     *     1.下单-> rabbitListener 监听 -> 减少库存
+     *
+     * Method 1 :
+     * @param msg 消息体字节数组
+     */
+    @RabbitListener(queues = {
+            "Calvin"
+    })
+    public void recevieMessage(Message msg){
+        log.info("收到消息体字节数组:{}\n 消息属性:{}",msg.getBody(),msg.getMessageProperties());
+    }
+
+    /**
+     * Method 2 :
+     * @param msg json
+     */
+    @RabbitListener(queues = {
+            "Calvin"
+    })
+    public void recevieMessage(JSONObject msg){
+        log.info("收到消息体:{}",msg);
+    }
+}
+
+```
 

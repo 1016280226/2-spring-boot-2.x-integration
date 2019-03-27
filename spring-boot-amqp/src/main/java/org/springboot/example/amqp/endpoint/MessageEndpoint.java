@@ -31,18 +31,18 @@ public class MessageEndpoint {
     @ApiOperation(value = "direct", notes = "单播(点对点)", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE)
     @PostMapping("send/direct")
     public String sendDirect(@RequestBody @Validated SendMessageRequestBody sendMessageRequestBody){
-        if(sendMessageRequestBody.getDefaultExchage() != null){
-            if(sendMessageRequestBody.getDefaultExchage() != Exchange.direct){
-                return new StringBuffer().append(sendMessageRequestBody.getDefaultExchage().name()).append("is paramter error").toString();
+        if(sendMessageRequestBody.getDefaultExchange() != null){
+            if(sendMessageRequestBody.getDefaultExchange() != Exchange.direct){
+                return new StringBuffer().append(sendMessageRequestBody.getDefaultExchange().name()).append("is paramter error").toString();
             }else {
                 // 自动序列化发送
-                rabbitTemplate.convertAndSend(sendMessageRequestBody.getDefaultExchage().getMessage(),sendMessageRequestBody.getRouteKey(),sendMessageRequestBody.getMessage());
+                rabbitTemplate.convertAndSend(sendMessageRequestBody.getDefaultExchange().getMessage(),sendMessageRequestBody.getRouteKey(),sendMessageRequestBody.getMessage());
             }
-        }else if(StringUtils.isEmpty(sendMessageRequestBody.getCustomerExchage())){
-            return new StringBuffer().append("customerExchage is paramter empty").toString();
+        }else if(StringUtils.isEmpty(sendMessageRequestBody.getCustomerExchange())){
+            return new StringBuffer().append("customerExchange is paramter empty").toString();
         }else {
             // 自动序列化发送
-            rabbitTemplate.convertAndSend(sendMessageRequestBody.getCustomerExchage(),sendMessageRequestBody.getRouteKey(),sendMessageRequestBody.getMessage());
+            rabbitTemplate.convertAndSend(sendMessageRequestBody.getCustomerExchange(),sendMessageRequestBody.getRouteKey(),sendMessageRequestBody.getMessage());
         }
         return "OK";
     }

@@ -17,10 +17,10 @@ import javax.validation.constraints.NotNull;
 public class SendMessageRequestBody {
 
     @ApiModelProperty(value = "默认交换器",example = "0", notes = "1.用来接收生产者发送的消息，并将这些消息路由给服务器中的队列;")
-    private Exchange defaultExchage;
+    private Exchange defaultExchange;
 
     @ApiModelProperty(value = "自定义交换器",example = "", notes = "1.用来接收生产者发送的消息，并将这些消息路由给服务器中的队列;")
-    private String customerExchage;
+    private String customerExchange;
 
     @ApiModelProperty(value ="路由键",example = "news",notes = "该路由键存唯一标识")
     @NotBlank(message = "路由键参数必填")

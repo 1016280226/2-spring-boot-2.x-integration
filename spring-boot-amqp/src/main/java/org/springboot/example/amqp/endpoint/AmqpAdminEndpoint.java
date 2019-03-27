@@ -87,7 +87,7 @@ public class AmqpAdminEndpoint {
                 amqpAdmin.declareBinding(new Binding(body.getDestination(),body.getDestinationType(), body.getDefaultExchange().getMessage(), body.getRoutingKey(), body.getArguments()));
             }
         }else if(StringUtils.isEmpty(body.getCustomerExchange())){
-            return new StringBuffer().append("customerExchage is paramter empty").toString();
+            return new StringBuffer().append("customerExchange is paramter empty").toString();
         }else {
             amqpAdmin.declareBinding(new Binding(body.getDestination(),body.getDestinationType(), body.getCustomerExchange(), body.getRoutingKey(), body.getArguments()));
         }

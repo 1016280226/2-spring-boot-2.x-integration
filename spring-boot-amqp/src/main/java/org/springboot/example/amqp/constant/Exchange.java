@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum Exchage {
+public enum Exchange {
         /**
          * 点对点
          */

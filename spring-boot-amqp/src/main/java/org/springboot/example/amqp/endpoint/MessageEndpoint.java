@@ -4,7 +4,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springboot.example.amqp.body.resquest.SendMessageRequestBody;
-import org.springboot.example.amqp.constant.Exchage;
+import org.springboot.example.amqp.constant.Exchange;
 import org.springboot.example.starter.abstracts.constant.ApiUrl;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,7 @@ public class MessageEndpoint {
     @PostMapping("send/direct")
     public String sendDirect(@RequestBody @Validated SendMessageRequestBody sendMessageRequestBody){
         if(sendMessageRequestBody.getDefaultExchage() != null){
-            if(sendMessageRequestBody.getDefaultExchage() != Exchage.direct){
+            if(sendMessageRequestBody.getDefaultExchage() != Exchange.direct){
                 return new StringBuffer().append(sendMessageRequestBody.getDefaultExchage().name()).append("is paramter error").toString();
             }else {
                 // 自动序列化发送

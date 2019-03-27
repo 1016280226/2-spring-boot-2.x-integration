@@ -4,10 +4,8 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springboot.example.amqp.constant.Exchage;
-import springfox.documentation.service.ApiListing;
+import org.springboot.example.amqp.constant.Exchange;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -19,7 +17,7 @@ import javax.validation.constraints.NotNull;
 public class SendMessageRequestBody {
 
     @ApiModelProperty(value = "默认交换器",example = "0", notes = "1.用来接收生产者发送的消息，并将这些消息路由给服务器中的队列;")
-    private Exchage defaultExchage;
+    private Exchange defaultExchage;
 
     @ApiModelProperty(value = "自定义交换器",example = "", notes = "1.用来接收生产者发送的消息，并将这些消息路由给服务器中的队列;")
     private String customerExchage;

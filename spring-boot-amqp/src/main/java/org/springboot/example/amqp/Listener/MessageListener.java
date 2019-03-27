@@ -1,8 +1,8 @@
 package org.springboot.example.amqp.Listener;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
@@ -17,15 +17,29 @@ import org.springframework.stereotype.Component;
 public class MessageListener {
 
     /**
+     *
      * 使用场景:
      *    a.商品下单:
      *     1.下单-> rabbitListener 监听 -> 减少库存
-     * @param recevieMessage
+     *
+     * Method 1 :
+     * @param msg 消息体字节数组
      */
     @RabbitListener(queues = {
             "Calvin"
     })
-    public void rabbitListener(JSONObject recevieMessage){
-        log.info("收到消息体:{}",recevieMessage);
+    public void recevieMessage(Message msg){
+        log.info("收到消息体字节数组:{}\n 消息属性:{}",msg.getBody(),msg.getMessageProperties());
+    }
+
+    /**
+     * Method 2 :
+     * @param msg json
+     */
+    @RabbitListener(queues = {
+            "Calvin"
+    })
+    public void recevieMessage(JSONObject msg){
+        log.info("收到消息体:{}",msg);
     }
 }

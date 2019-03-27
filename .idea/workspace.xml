@@ -9,7 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6115ebec-fbb3-421b-8e32-f6a7df004168" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/SendMessageRequestBody.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="750">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,12 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-amqp/SpringBoot AMQP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -161,7 +170,7 @@
         <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/RabbitMQAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="23" column="3" lean-forward="true" selection-end-line="38" />
+              <caret line="23" column="3" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,18 +183,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/listener/MessageListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -232,8 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/config/ExtraMvcConfig.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/config/CustomerMvcConfig.java" />
         <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/i18n/login.properties" />
         <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/i18n/LocaleResolver.java" />
         <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/i18n/CustomerLocaleResolver.java" />
@@ -283,6 +278,8 @@
         <option value="$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/endpoint/AmqpAdminEndpoint.java" />
         <option value="$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/listener/MessageListener.java" />
         <option value="$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/SendMessageRequestBody.java" />
+        <option value="$PROJECT_DIR$/springboot.gitattributes" />
+        <option value="$PROJECT_DIR$/.gitattributes" />
       </list>
     </option>
   </component>
@@ -339,17 +336,6 @@
             <path>
               <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
@@ -578,12 +564,12 @@
       <workItem from="1553400714420" duration="3132000" />
       <workItem from="1553484722655" duration="2309000" />
       <workItem from="1553560379031" duration="691000" />
-      <workItem from="1553622167292" duration="22514000" />
+      <workItem from="1553622167292" duration="22813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167583000" />
+    <option name="totallyTimeSpent" value="167882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,11 +655,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-swagger/src/main/java/org/springboot/example/swagger/plugins/PageableParameterBuilderPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1500" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-swagger/src/main/java/org/springboot/example/swagger/config/Swagger2Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -962,7 +943,7 @@
     <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/RabbitMQAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="23" column="3" lean-forward="true" selection-end-line="38" />
+          <caret line="23" column="3" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1026,7 +1007,7 @@
     <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/SendMessageRequestBody.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1038,6 +1019,13 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>

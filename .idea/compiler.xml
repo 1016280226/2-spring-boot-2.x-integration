@@ -12,6 +12,7 @@
         <module name="spring-boot-mongodb" />
         <module name="spring-boot-swagger" />
         <module name="spring-boot-webmvc" />
+        <module name="spring-boot-wechat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

@@ -1,80 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="jar://$MAVEN_REPOSITORY$/org/springboot/example/spring-boot-commonds-abstracts/1.0-SNAPSHOT/spring-boot-commonds-abstracts-1.0-SNAPSHOT.jar!/org/springboot/example/commonds/abstracts/crud/CRUD.class" description="T queryByPrimary(Long var1);" line="0" />
-    <bookmark url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.1.5.RELEASE/spring-data-mongodb-2.1.5.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class" description="MongoPersistentEntity&lt;?&gt; entity = (MongoPersistent..." line="0" />
-    <bookmark url="jar://$MAVEN_REPOSITORY$/org/springboot/example/spring-boot-commonds-abstracts/1.0-SNAPSHOT/spring-boot-commonds-abstracts-1.0-SNAPSHOT.jar!/org/springboot/example/commonds/abstracts/crud/CRUD.class" line="0" />
-    <bookmark url="file://G:/workspace/daikou/daikou/yingding-daikou-kernel/yingding-daikou-admin/src/main/java/com/yingding/daikou/admin/settle/service/SettleService.java" line="64" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="6115ebec-fbb3-421b-8e32-f6a7df004168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/body/LoginWechatRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/AbstractBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/ImageBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/TextBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpHandlerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/constant/WechatMpApiCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/constant/WechatMpBibleConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/SecuritySocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatLoginEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatMpEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanThirdLoginReceivers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatSubscribeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/AbstractHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/KfSessionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LogHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MenuHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/NullHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/ScanHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/StoreCheckNotifyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/SubscribeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/UnsubscribeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/listener/WechatMpSeedDataInitializeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/templatemsg/SendWechatMpTemplateMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatMpEndpoint1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-commonds-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-commonds-dependencies/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-commonds-dependencies/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-commonds-dependencies/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-commonds-dependencies/target/spring-boot-commonds-dependencies-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-commonds-dependencies/target/spring-boot-commonds-dependencies-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mongodb/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mongodb/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mongodb/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mongodb/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mongodb/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mongodb/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mongodb/target/spring-boot-mongodb-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mongodb/target/spring-boot-mongodb-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-starter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-starter/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-starter/target/spring-boot-starter-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-starter/target/spring-boot-starter-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/bak.dropload.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/bak.dropload.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/comment.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/comment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/dropload.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/dropload.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/more.json" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/more.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/pull.css" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/css/pull.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/bak.droploads.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/bak.droploads.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/cashiermanage.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/cashiermanage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/city.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/city.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/clipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/clipboard.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/dropload.bak.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/dropload.bak.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/dropload.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/dropload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/dropload.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/dropload.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/jquery-1.9.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/json3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/json3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/transcount.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/transcount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/transnotification.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/transnotification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/zepto.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/classes/public/js/zepto.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-swagger/target/spring-boot-swagger-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-swagger/target/spring-boot-swagger-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/body/BindOrRegistrationRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/body/MiniappQrcodeRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/body/MiniappUserDetailRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/body/WechatError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/body/WechatOpenAccountQueryBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/body/WechatSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/body/WechatUserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/config/WechatMaAutoConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/config/WechatMiniAppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/config/WechatMiniappProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/constant/WechatMaBibleConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/constant/WechatMiniappApiCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/endpoint/WechatMiniappApiEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/endpoint/WechatMiniappEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/endpoint/WechatMiniappOpenApiEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/entity/WechatOpenAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/entity/WechatUserDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/enumeration/Gender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/enumeration/WechatOpenidType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/event/WechatDetailUpdatedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/listener/MiniappSeedDataInitializeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/mapper/WechatOpenAccountMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/mapper/WechatUserDetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/service/WechatInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/service/WechatInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/service/WechatMiniappService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/service/WechatMiniappServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/service/WechatOpenAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/service/WechatOpenAccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/service/WechatUserDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/service/WechatUserDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpHandlerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpHandlerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/SecuritySocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/SecuritySocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatLoginEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatLoginEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatMpEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatMpEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanThirdLoginReceivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanThirdLoginReceivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatSubscribeEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatSubscribeEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LogHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MenuHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MenuHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/ScanHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/ScanHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/SubscribeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/SubscribeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/UnsubscribeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/UnsubscribeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/templatemsg/SendWechatMpTemplateMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/templatemsg/SendWechatMpTemplateMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/Aes128Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/WechatEncryptUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/WechatSessionRemoteApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/phone/PhoneNumberRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/phone/PhoneNumberResponseBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/phone/PhoneNumberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/phone/PhoneNumberServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/phone/Watermark.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -117,19 +118,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/KfSessionHandler.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/ImageBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="88">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LocationHandler.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/AbstractBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="275">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,40 +139,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MenuHandler.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/body/LoginWechatRequestBody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MsgHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/NullHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/ScanHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="368">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="96" column="62" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -179,26 +162,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/templatemsg/SendWechatMpTemplateMsg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1405">
-              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+            <state relative-caret-position="500">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatMpEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+            <state relative-caret-position="312">
+              <caret line="125" column="61" selection-start-line="125" selection-start-column="61" selection-end-line="125" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyService.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpHandlerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="375">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,13 +196,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LogHandler.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/SubscribeHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            <state relative-caret-position="373">
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -257,24 +264,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/crud/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/crud/service/EmployeeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/crud/service/DepartmentService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/crud/service/DepartmentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/crud/endpoint/EmployeeEndpoint.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/WebMVCSpringBootApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-swagger/src/main/java/org/springboot/example/swagger/SwaggerSpringBootApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/config/ExtractMvcConfig.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/crud/endpoint/LoginEndpoint.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/templates/dashboard.html" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/interceptor/CustomerHandlerInterceptor.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/java/org/springboot/example/webmvc/WebMvcAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/i18n/login_en_US.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-webmvc/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-starter/src/main/java/org/springboot/example/starter/abstracts/constant/ApiUrl.java" />
-        <option value="$PROJECT_DIR$/spring-boot-amqp/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-mongodb/src/main/java/org/springboot/example/mongodb/endpoint/UserEndpoint.java" />
         <option value="$PROJECT_DIR$/spring-boot-mongodb/src/main/java/org/springboot/example/mongodb/endpoint/UserJpaEndpoint.java" />
         <option value="$PROJECT_DIR$/spring-boot-amqp/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-boot-amqp/src/main/resources/application.properties" />
@@ -297,17 +286,35 @@
         <option value="$PROJECT_DIR$/.gitattributes" />
         <option value="$PROJECT_DIR$/spring-boot-swagger/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/body/LoginWechatRequestBody.java" />
-        <option value="$PROJECT_DIR$/spring-boot-wechat/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/AbstractBuilder.java" />
         <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpAutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpHandlerConfig.java" />
         <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/constant/WechatMpApiCode.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpConfig.java" />
         <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/SecuritySocket.java" />
-        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatLoginEndpoint.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatEndpoint.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanThirdLoginReceivers.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatSubscribeEvent.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanEvent.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/UnsubscribeHandler.java" />
         <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LocationHandler.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatLoginEndpoint.java" />
+        <option value="$PROJECT_DIR$/spring-boot-commonds-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MsgHandler.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MenuHandler.java" />
         <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LogHandler.java" />
         <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/ScanHandler.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LocationHandler.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/SubscribeHandler.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/templatemsg/SendWechatMpTemplateMsg.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatMpEndpoint.java" />
+        <option value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpHandlerConfig.java" />
       </list>
     </option>
   </component>
@@ -342,11 +349,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="81" />
-    <option name="y" value="164" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="371" />
+    <option name="y" value="26" />
     <option name="width" value="1355" />
-    <option name="height" value="1087" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -357,190 +364,68 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-2.x" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-commonds-dependencies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-swagger" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-swagger" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-swagger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-2.x" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-2.x" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-webmvc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mp" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mp" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mp" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mp" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mp" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mp" type="462c0819:PsiDirectoryNode" />
-              <item name="templatemsg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,7 +438,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549281314026" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-wechat/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -561,12 +449,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\localspace\SpringBoot2.x 集成\spring-boot\spring-boot-wechat\src\main\java\org\springboot\example" />
-      <recent name="G:\localspace\spring-boot\spring-boot-amqp" />
-      <recent name="G:\localspace\spring-boot\spring-boot-webmvc" />
-      <recent name="G:\localspace\spring-boot\spring-boot-webmvc\src\main\java\org\springboot\example\webmvc\crud\entity" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\spring-boot-2.x\spring-boot-wechat\src\main" />
+      <recent name="F:\workspace\spring-boot-2.x\spring-boot-wechat\src\main\java\resources" />
       <recent name="G:\localspace\spring-boot\spring-boot-webmvc\src\main\resources" />
+      <recent name="G:\localspace\spring-boot\spring-boot-mongodb" />
+      <recent name="G:\localspace\spring-boot\spring-boot-swagger\src\main\java\org\springboot\example\swagger\endpoint" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.springboot.example.amqp.body.resquest" />
@@ -575,10 +463,12 @@
       <recent name="org.springboot.example.webmvc.crud.service" />
       <recent name="org.springboot.example.mongodb.endpoint" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\localspace\spring-boot\spring-boot-webmvc\src\main\resources" />
-      <recent name="G:\localspace\spring-boot\spring-boot-mongodb" />
-      <recent name="G:\localspace\spring-boot\spring-boot-swagger\src\main\java\org\springboot\example\swagger\endpoint" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\spring-boot-2.x\spring-boot-wechat\src\main\java" />
+      <recent name="G:\localspace\SpringBoot2.x 集成\spring-boot\spring-boot-wechat\src\main\java\org\springboot\example" />
+      <recent name="G:\localspace\spring-boot\spring-boot-amqp" />
+      <recent name="G:\localspace\spring-boot\spring-boot-webmvc" />
+      <recent name="G:\localspace\spring-boot\spring-boot-webmvc\src\main\java\org\springboot\example\webmvc\crud\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -710,11 +600,12 @@
       <workItem from="1553860820875" duration="2678000" />
       <workItem from="1553923464026" duration="990000" />
       <workItem from="1558971269809" duration="1806000" />
+      <workItem from="1559005362528" duration="3233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177508000" />
+    <option name="totallyTimeSpent" value="180741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,10 +617,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="371" y="26" width="1355" height="1055" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.2468017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49044585" visible="true" weight="0.32586873" />
       <window_info id="Learn" order="1" weight="0.32712767" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -749,7 +639,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32987553" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.4978678" weight="0.32914045" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" visible="true" weight="0.33264032" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49573562" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.35980812" side_tool="true" weight="0.15424974" />
@@ -801,209 +691,297 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.3.RELEASE/spring-amqp-2.1.3.RELEASE.jar!/org/springframework/amqp/core/Queue.class">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/constant/WechatMiniappApiCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.3.RELEASE/spring-amqp-2.1.3.RELEASE.jar!/org/springframework/amqp/core/Binding.class">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/endpoint/WechatMiniappApiEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/endpoint/WechatMiniappEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/miniapp/endpoint/WechatMiniappOpenApiEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.3.RELEASE/spring-rabbit-2.1.3.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitAdmin.class">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="262" column="16" selection-start-line="262" selection-start-column="16" selection-end-line="262" selection-end-column="16" />
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.3.RELEASE/spring-amqp-2.1.3.RELEASE.jar!/org/springframework/amqp/core/AmqpAdmin.class">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatMpEndpoint1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="149" column="11" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanThirdLoginReceivers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="28" column="15" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatSubscribeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/UnsubscribeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="18" column="149" selection-start-line="18" selection-start-column="149" selection-end-line="18" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="15" column="58" lean-forward="true" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="131" column="50" lean-forward="true" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/phone/PhoneNumberRequestBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/phone/PhoneNumberResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/phone/PhoneNumberService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="19" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/SpringBoot Data MongoDB.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/listener/MessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/endpoint/AmqpAdminEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/SendMessageRequestBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/phone/Watermark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/CreateQueueRequestBody.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/Aes128Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="195">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/SpringBoot AMQP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/wechat/miniapp/WechatEncryptUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-swagger/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/SecuritySocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="23" column="3" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatLoginEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-commonds-dependencies/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-swagger/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-swagger/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/CreateExchangeRequestBody.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/body/resquest/BindRequestBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/endpoint/MessageEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="41" column="16" selection-end-line="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/RabbitMQAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="3" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-amqp/src/main/java/org/springboot/example/amqp/constant/Exchange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-swagger/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mongodb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/body/LoginWechatRequestBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="750">
+          <caret line="39" selection-start-line="19" selection-start-column="5" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-wechat/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="87">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/AbstractBuilder.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MsgHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="-100">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MenuHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/constant/WechatMpBibleConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/constant/WechatMpApiCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LogHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/ScanHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/KfSessionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/AbstractHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/NullHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/StoreCheckNotifyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/listener/WechatMpSeedDataInitializeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/utils/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2075">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/TextBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1014,148 +992,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/TextBuilder.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/builder/AbstractBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpHandlerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="275">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/constant/WechatMpApiCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/resources/i18n/login.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ResourceBundle" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/constant/WechatMpBibleConstants.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/body/LoginWechatRequestBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/SecuritySocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
+        <state relative-caret-position="368">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatMpEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2601">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="400">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatLoginEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="25">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanEvent.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="398">
+          <caret line="96" column="62" selection-start-line="96" selection-start-column="62" selection-end-line="96" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatScanThirdLoginReceivers.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/SubscribeHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/event/WechatSubscribeEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/AbstractHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/KfSessionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/LogHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MenuHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/MsgHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/NullHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/handler/ScanHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="373">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1164,22 +1049,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/templatemsg/SendWechatMpTemplateMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1405">
-          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        <state relative-caret-position="500">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/endpoint/WechatMpEndpoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="146" column="19" selection-start-line="146" selection-start-column="19" selection-end-line="146" selection-end-column="19" />
+        <state relative-caret-position="312">
+          <caret line="125" column="61" selection-start-line="125" selection-start-column="61" selection-end-line="125" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/service/LoginThirdPartyService.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-wechat/src/main/java/org/springboot/example/mp/config/WechatMpHandlerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="375">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

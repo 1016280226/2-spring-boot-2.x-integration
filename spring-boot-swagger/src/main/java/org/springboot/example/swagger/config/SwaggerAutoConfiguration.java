@@ -1,9 +1,9 @@
-package org.springboot.example.swagger.config;
+package org.springboot.example.example.swagger.config;
 
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
 import lombok.extern.slf4j.Slf4j;
-import org.springboot.example.swagger.properties.SwaggerProperties;
+import org.springboot.example.example.swagger.properties.SwaggerProperties;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryAware;

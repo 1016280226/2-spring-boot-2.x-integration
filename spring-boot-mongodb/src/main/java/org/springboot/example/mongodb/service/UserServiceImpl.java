@@ -1,10 +1,10 @@
-package org.springboot.example.mongodb.service;
+package org.springboot.example.example.mongodb.service;
 
 
 import com.mongodb.client.result.DeleteResult;
 import com.mongodb.client.result.UpdateResult;
-import org.springboot.example.mongodb.entity.User;
-import org.springboot.example.mongodb.utils.MongodbUtils;
+import org.springboot.example.example.mongodb.utils.MongodbUtils;
+import org.springboot.example.example.mongodb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Query;

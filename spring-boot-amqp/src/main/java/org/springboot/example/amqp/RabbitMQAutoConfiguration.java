@@ -1,4 +1,4 @@
-package org.springboot.example.amqp;
+package org.springboot.example.example.amqp;
 
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.amqp.support.converter.MessageConverter;

@@ -1,4 +1,4 @@
-package org.springboot.example.amqp.listener;
+package org.springboot.example.example.amqp.listener;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package org.springboot.example.starter.abstracts.crud;
+package org.springboot.example.example.starter.abstracts.crud;
 
 import java.util.List;
 

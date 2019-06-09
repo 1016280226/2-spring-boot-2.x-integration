@@ -1,4 +1,4 @@
-package org.springboot.example.swagger.body;
+package org.springboot.example.example.swagger.body;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

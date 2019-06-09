@@ -1,11 +1,10 @@
-package org.springboot.example.mongodb.endpoint;
+package org.springboot.example.example.mongodb.endpoint;
 
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiOperation;
-import org.springboot.example.mongodb.entity.User;
-import org.springboot.example.mongodb.service.UserService;
-import org.springboot.example.starter.abstracts.constant.ApiUrl;
+import org.springboot.example.example.starter.abstracts.constant.ApiUrl;
+import org.springboot.example.example.mongodb.entity.User;
+import org.springboot.example.example.mongodb.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package org.springboot.example.mongodb.utils;
+package org.springboot.example.example.mongodb.utils;
 
 import org.springframework.cglib.beans.BeanMap;
 import org.springframework.data.domain.Example;

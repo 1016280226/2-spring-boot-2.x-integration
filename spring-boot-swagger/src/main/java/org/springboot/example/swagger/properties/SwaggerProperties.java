@@ -1,4 +1,4 @@
- package org.springboot.example.swagger.properties;
+ package org.springboot.example.example.swagger.properties;
 
  import lombok.AllArgsConstructor;
  import lombok.Data;

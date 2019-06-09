@@ -1,7 +1,7 @@
-package org.springboot.example.mongodb.service;
+package org.springboot.example.example.mongodb.service;
 
-import org.springboot.example.mongodb.entity.User;
-import org.springboot.example.starter.abstracts.crud.CRUD;
+import org.springboot.example.example.starter.abstracts.crud.CRUD;
+import org.springboot.example.example.mongodb.entity.User;
 
 /**
  * @author Calvin

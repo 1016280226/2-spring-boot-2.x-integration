@@ -1,4 +1,4 @@
-package org.springboot.example.amqp.constant;
+package org.springboot.example.example.amqp.constant;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

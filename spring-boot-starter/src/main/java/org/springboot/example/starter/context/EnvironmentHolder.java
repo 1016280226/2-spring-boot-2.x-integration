@@ -1,4 +1,4 @@
-package org.springboot.example.starter.context;
+package org.springboot.example.example.starter.context;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.EnvironmentAware;

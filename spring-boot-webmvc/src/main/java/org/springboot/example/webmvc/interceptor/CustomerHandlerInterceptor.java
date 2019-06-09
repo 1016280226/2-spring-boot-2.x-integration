@@ -1,4 +1,4 @@
-package org.springboot.example.webmvc.interceptor;
+package org.springboot.example.example.webmvc.interceptor;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;

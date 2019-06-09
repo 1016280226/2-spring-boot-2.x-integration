@@ -1,6 +1,6 @@
-package org.springboot.example.mongodb.repository;
+package org.springboot.example.example.mongodb.repository;
 
-import org.springboot.example.mongodb.entity.User;
+import org.springboot.example.example.mongodb.entity.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;

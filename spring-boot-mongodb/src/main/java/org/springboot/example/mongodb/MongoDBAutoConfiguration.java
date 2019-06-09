@@ -1,4 +1,4 @@
-package org.springboot.example.mongodb;
+package org.springboot.example.example.mongodb;
 
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

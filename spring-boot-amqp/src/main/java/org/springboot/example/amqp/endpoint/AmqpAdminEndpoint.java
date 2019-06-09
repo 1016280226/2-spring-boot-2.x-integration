@@ -1,13 +1,13 @@
-package org.springboot.example.amqp.endpoint;
+package org.springboot.example.example.amqp.endpoint;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.springboot.example.amqp.body.resquest.BindRequestBody;
-import org.springboot.example.amqp.body.resquest.CreateExchangeRequestBody;
-import org.springboot.example.amqp.body.resquest.CreateQueueRequestBody;
-import org.springboot.example.amqp.constant.Exchange;
-import org.springboot.example.starter.abstracts.constant.ApiUrl;
+import org.springboot.example.example.amqp.body.resquest.BindRequestBody;
+import org.springboot.example.example.amqp.body.resquest.CreateExchangeRequestBody;
+import org.springboot.example.example.amqp.body.resquest.CreateQueueRequestBody;
+import org.springboot.example.example.amqp.constant.Exchange;
+import org.springboot.example.example.starter.abstracts.constant.ApiUrl;
 import org.springframework.amqp.core.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

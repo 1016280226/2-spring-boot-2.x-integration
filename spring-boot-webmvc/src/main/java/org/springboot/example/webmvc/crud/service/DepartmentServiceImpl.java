@@ -1,10 +1,10 @@
-package org.springboot.example.webmvc.crud.service;
+package org.springboot.example.example.webmvc.crud.service;
 
 
 import com.mongodb.client.result.DeleteResult;
 import com.mongodb.client.result.UpdateResult;
-import org.springboot.example.mongodb.utils.MongodbUtils;
-import org.springboot.example.webmvc.crud.entity.Department;
+import org.springboot.example.example.mongodb.utils.MongodbUtils;
+import org.springboot.example.example.webmvc.crud.entity.Department;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Query;

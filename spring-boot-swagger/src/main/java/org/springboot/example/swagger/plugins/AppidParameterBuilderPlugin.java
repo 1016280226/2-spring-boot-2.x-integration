@@ -1,4 +1,4 @@
-package org.springboot.example.swagger.plugins;//package com.minlia.modules.starter.swagger.plugins;
+package org.springboot.example.example.swagger.plugins;//package com.minlia.modules.starter.swagger.plugins;
 //
 //import com.fasterxml.classmate.ResolvedType;
 //import com.fasterxml.classmate.TypeResolver;

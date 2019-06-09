@@ -1,4 +1,4 @@
-package org.springboot.example.webmvc.i18n;
+package org.springboot.example.example.webmvc.i18n;
 
 
 import org.springframework.util.StringUtils;

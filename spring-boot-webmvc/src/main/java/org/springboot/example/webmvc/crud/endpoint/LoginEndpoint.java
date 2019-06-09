@@ -1,4 +1,4 @@
-package org.springboot.example.webmvc.crud.endpoint;
+package org.springboot.example.example.webmvc.crud.endpoint;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;

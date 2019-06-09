@@ -1,11 +1,11 @@
-package org.springboot.example.example.amqp.body.resquest;
+package org.springboot.example.amqp.body.resquest;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springboot.example.example.amqp.constant.Exchange;
+import org.springboot.example.amqp.constant.Exchange;
 import org.springframework.amqp.core.Binding;
 
 import javax.validation.constraints.NotBlank;

@@ -1,6 +1,6 @@
-package org.springboot.example.example.webmvc;
+package org.springboot.example.webmvc;
 
-import org.springboot.example.example.webmvc.i18n.CustomerLocaleResolver;
+import org.springboot.example.webmvc.i18n.CustomerLocaleResolver;
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

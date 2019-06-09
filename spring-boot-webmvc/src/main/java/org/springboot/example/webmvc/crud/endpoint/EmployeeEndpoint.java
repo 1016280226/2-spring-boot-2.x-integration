@@ -1,11 +1,11 @@
-package org.springboot.example.example.webmvc.crud.endpoint;
+package org.springboot.example.webmvc.crud.endpoint;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.springboot.example.example.webmvc.crud.entity.Department;
-import org.springboot.example.example.webmvc.crud.entity.Employee;
-import org.springboot.example.example.webmvc.crud.service.DepartmentService;
-import org.springboot.example.example.webmvc.crud.service.EmployeeService;
+import org.springboot.example.webmvc.crud.entity.Department;
+import org.springboot.example.webmvc.crud.entity.Employee;
+import org.springboot.example.webmvc.crud.service.DepartmentService;
+import org.springboot.example.webmvc.crud.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

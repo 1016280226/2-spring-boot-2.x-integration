@@ -1,6 +1,6 @@
-package org.springboot.example.example.webmvc.config;
+package org.springboot.example.webmvc.config;
 
-import org.springboot.example.example.webmvc.interceptor.CustomerHandlerInterceptor;
+import org.springboot.example.webmvc.interceptor.CustomerHandlerInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

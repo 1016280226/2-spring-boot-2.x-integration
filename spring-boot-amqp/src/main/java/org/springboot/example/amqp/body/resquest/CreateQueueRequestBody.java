@@ -1,4 +1,4 @@
-package org.springboot.example.example.amqp.body.resquest;
+package org.springboot.example.amqp.body.resquest;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

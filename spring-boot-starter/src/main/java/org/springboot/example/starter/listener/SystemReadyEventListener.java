@@ -1,14 +1,13 @@
-package org.springboot.example.example.starter.listener;
-
-import java.net.InetAddress;
-import java.net.UnknownHostException;
-
+package org.springboot.example.starter.listener;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springboot.example.example.starter.context.EnvironmentHolder;
+import org.springboot.example.starter.context.EnvironmentHolder;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.core.env.Environment;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 @Slf4j
 public class SystemReadyEventListener implements ApplicationListener<ApplicationReadyEvent> {

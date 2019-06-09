@@ -1,6 +1,6 @@
-package org.springboot.example.example.mongodb.repository;
+package org.springboot.example.mongodb.repository;
 
-import org.springboot.example.example.mongodb.entity.User;
+import org.springboot.example.mongodb.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

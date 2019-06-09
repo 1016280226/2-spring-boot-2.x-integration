@@ -1,4 +1,4 @@
-package org.springboot.example.example.starter.abstracts.constant;
+package org.springboot.example.starter.abstracts.constant;
 
 /**
  * @author Calvin

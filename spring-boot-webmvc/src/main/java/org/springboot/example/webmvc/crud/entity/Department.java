@@ -1,4 +1,4 @@
-package org.springboot.example.example.webmvc.crud.entity;
+package org.springboot.example.webmvc.crud.entity;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;

@@ -1,7 +1,7 @@
-package org.springboot.example.example.webmvc.crud.service;
+package org.springboot.example.webmvc.crud.service;
 
-import org.springboot.example.example.starter.abstracts.crud.CRUD;
-import org.springboot.example.example.webmvc.crud.entity.Employee;
+import org.springboot.example.starter.abstracts.crud.CRUD;
+import org.springboot.example.webmvc.crud.entity.Employee;
 
 import java.util.List;
 

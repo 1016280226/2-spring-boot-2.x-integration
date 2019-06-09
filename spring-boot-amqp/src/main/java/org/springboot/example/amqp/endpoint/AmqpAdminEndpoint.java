@@ -1,13 +1,13 @@
-package org.springboot.example.example.amqp.endpoint;
+package org.springboot.example.amqp.endpoint;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.springboot.example.example.amqp.body.resquest.BindRequestBody;
-import org.springboot.example.example.amqp.body.resquest.CreateExchangeRequestBody;
-import org.springboot.example.example.amqp.body.resquest.CreateQueueRequestBody;
-import org.springboot.example.example.amqp.constant.Exchange;
-import org.springboot.example.example.starter.abstracts.constant.ApiUrl;
+import org.springboot.example.amqp.body.resquest.BindRequestBody;
+import org.springboot.example.amqp.body.resquest.CreateExchangeRequestBody;
+import org.springboot.example.amqp.body.resquest.CreateQueueRequestBody;
+import org.springboot.example.amqp.constant.Exchange;
+import org.springboot.example.starter.abstracts.constant.ApiUrl;
 import org.springframework.amqp.core.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -33,26 +33,21 @@ public class AmqpAdminEndpoint {
     @ApiOperation(value = "create/exchange", notes = "创建交换器", httpMethod = "POST", consumes = MediaType.APPLICATION_JSON_VALUE)
     @PostMapping("create/exchange")
     public String createExchange(@RequestBody @Validated CreateExchangeRequestBody body){
-      switch (body.getExchageType()){
-          case direct:
-              amqpAdmin.declareExchange(new DirectExchange(body.getName(),body.getDurable(),body.getAutoDelete(),body.getArguments()));
-              break;
-          case fanout:
-              amqpAdmin.declareExchange(new FanoutExchange(body.getName(),body.getDurable(),body.getAutoDelete(),body.getArguments()));
-              break;
-          case topic:
-              amqpAdmin.declareExchange(new TopicExchange(body.getName(),body.getDurable(),body.getAutoDelete(),body.getArguments()));
-              break;
-          case headers:
-              amqpAdmin.declareExchange(new HeadersExchange(body.getName(),body.getDurable(),body.getAutoDelete(),body.getArguments()));
-              break;
-              default:
-                  try {
-                      throw new Exception("exchangeType is Paramter Error");
-                  } catch (Exception e) {
-                      e.printStackTrace();
-                  }
-      }
+        if (ExchangeTypes.DIRECT.equals(body.getExchageType())) {
+            amqpAdmin.declareExchange(new DirectExchange(body.getName(), body.getDurable(), body.getAutoDelete(), body.getArguments()));
+        } else if (ExchangeTypes.FANOUT.equals(body.getExchageType())) {
+            amqpAdmin.declareExchange(new FanoutExchange(body.getName(), body.getDurable(), body.getAutoDelete(), body.getArguments()));
+        } else if (ExchangeTypes.TOPIC.equals(body.getExchageType())) {
+            amqpAdmin.declareExchange(new TopicExchange(body.getName(), body.getDurable(), body.getAutoDelete(), body.getArguments()));
+        } else if (ExchangeTypes.HEADERS.equals(body.getExchageType())) {
+            amqpAdmin.declareExchange(new HeadersExchange(body.getName(), body.getDurable(), body.getAutoDelete(), body.getArguments()));
+        } else {
+            try {
+                throw new Exception("exchangeType is Paramter Error");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
         return "OK";
     }
 

@@ -14,7 +14,7 @@
     <properties>
         <project>1.0-SNAPSHOT</project>
         <swagger>2.9.2</swagger>
-        <spring>5.1.5.RELEASE</spring>
+        <spring>5.3.19</spring>
     </properties>
 
     <dependencies>

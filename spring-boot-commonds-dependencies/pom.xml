@@ -13,7 +13,7 @@
 
     <properties>
         <lombok>1.16.22</lombok>
-        <alibaba.json>1.2.46</alibaba.json>
+        <alibaba.json>1.2.83</alibaba.json>
         <apache.commons>3.7</apache.commons>
         <log4j>1.2.17</log4j>
     </properties>
